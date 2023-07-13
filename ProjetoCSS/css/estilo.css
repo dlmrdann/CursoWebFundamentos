@@ -1,0 +1,106 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+    margin: 0;
+}
+
+
+
+.hero{
+    background-image: url(../imagens/bgheader.png);
+    height: 500px;
+    background-position: right center;
+    border-top: 1px solid transparent;
+}
+
+.hero-content{
+    text-align: center;
+    color: white;
+    margin-top: 150px;
+}
+
+.hero-content h1{
+    text-transform: uppercase;
+    font-size: 46px;
+    text-shadow: 3px 2px 5px #333;
+}
+
+.hero nav ul{
+    text-align: right;
+    margin: 20px 50px 0 0;
+}
+
+.hero nav li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 10px;
+    border: 1px solid white;
+}
+
+.hero nav a{
+    background: rgba(0, 0, 0, 0.3);
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+.hero nav a:hover{
+    background: rgba(0, 0, 0, 0.5);
+
+main{
+    width: 80%;
+    margin: auto;
+}
+
+.content-section{
+    background-color: white;
+    padding: 15px;
+    margin-top: 15px;
+}
+
+.subtitulo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    color: black;
+    text-align: left;
+    background-color: #6F6F6F;
+    background-size: 500px;
+    border-bottom: 1px solid #1C9489;
+}
+
+.paragrafo{
+    text-transform: lowercase;
+    font-size: 18px;
+}
+
+.card1{
+    margin-right: 800px;
+
+}
+
+.card2{
+    margin-right: 500px;
+    margin-left: 500px;
+    margin-top: 0px;
+    height: 100px;
+}
+
+.card3{
+    margin-left: 800px;
+    margin-right: 30px;
+}
+
+.rodape{
+    height: 80px;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    text-shadow: 2px 2px 2px black;
+    background: #6b6c68; 
+    padding-top: 30px;
+}
